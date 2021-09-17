@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 20px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#searchText{
+    margin: 50px;
+    height: 50px;
+    width: 300px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.palette{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.colorName{
+    font-size: 0px;
+}
+/* 7 colors */
+#violate{
+    background: violet;
+    height: 250px;
+    width: 180px;
+    border: 1px solid black;
+}
+#indigo{
+    background: indigo;
+    height: 250px;
+    width: 180px;
+    border: 1px solid black;
+}
+#blue{
+    background: blue;
+    height: 250px;
+    width: 180px;
+    border: 1px solid black;
+}
+#green{
+    background: green;
+    height: 250px;
+    width: 180px;
+    border: 1px solid black;
+}
+#yellow{
+    background: yellow;
+    height: 250px;
+    width: 180px;
+    border: 1px solid black;
+}
+#orange{
+    background: rgb(255, 187, 0);
+    height: 250px;
+    width: 180px;
+    border: 1px solid black;
+}
+#red{
+    height: 250px;
+    width: 180px;
+    background: red;
+    border: 1px solid black;
+}
